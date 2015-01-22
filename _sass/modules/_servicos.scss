@@ -5,6 +5,14 @@
 Services
 ==================== */
 
+.services-page {
+  background: $light-grey2;
+}
+
+.services-page > .containner {
+  width: 60%;
+}
+
 .services-page .bottom-nav {
   background: #fff;
 }
@@ -12,7 +20,7 @@ Services
 .services {
   padding: 35px 0 20px 0;
   @include clearfix;
-  
+
   .containner {
     width: 60%;
     padding-right: 20%;
@@ -25,7 +33,7 @@ Services
     margin: 0 0 20px 0;
     color: #000;
     cursor: pointer;
-    
+
     strong {
       width: 40px;
       height: 40px;
@@ -37,12 +45,12 @@ Services
       color: $grey2;
       float: left;
     }
-    
+
     span {
       margin-left: 60px;
       display: block;
     }
-    
+
     &:hover {
       opacity: .7;
     }
@@ -55,9 +63,6 @@ Services
   }
 
 }
-
-.services:nth-child(even) {background: $light-grey1; }
-.services:nth-child(odd) {background: $light-grey2; }
 
 .service-02 .service-entry,
 .service-03 .service-entry,
