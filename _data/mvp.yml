@@ -462,6 +462,18 @@ projects:
     name: Ideias
     slug: ideias
     image: /images/projetos/mvp/ideias.jpg
+  -
+    name: Triagem Auditiva
+    slug: triagemauditiva
+    image: /images/projects/triagem-auditiva.jpg
+  -
+    name: Midia B2W
+    slug: midiab2w
+    image: /images/projects/midiab2w.jpg
+  -
+    name: Blog
+    slug: blog
+    image: /images/projects/blog.jpg
 
 testimonials-videos:
   -
