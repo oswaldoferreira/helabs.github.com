@@ -15,7 +15,7 @@ Services
     float: right;
   }
   .mini-week {
-    margin: 22% 0 0 0;  
+    margin: 22% 0 0 0;
   }
 }
 
@@ -98,6 +98,73 @@ Services
 
   &:hover {
     opacity: .8;
+  }
+}
+
+.complementary {
+  @include clearfix;
+  clear: both;
+  margin: 25px 0;
+
+  >p {
+    font-size: $font-medium2;
+    float: left;
+    line-height: 30px;
+    text-align: justify;
+    width: 65%;
+  }
+
+  .blog-feed {
+    border-left: solid 1px #ccc;
+    float: right;
+    padding: 0 0 0 3%;
+    position:relative;
+    width: 29%;
+
+    h4 {
+      display:inline-block;
+      font-size: $font-medium2;
+      text-transform: uppercase;
+      position: relative;
+
+      &:after {
+        background: url("/images/mini-blog-feed-icon.jpg") 0 0 no-repeat;
+        content: '';
+        display: inline-block;
+        height: 17px;
+        position: absolute;
+        top: 3px;
+        right: -20px;
+        width: 16px;
+      }
+    }
+
+    p {
+      font-size: $font-small;
+      margin: 0 0 10px 0;
+    }
+
+    a {
+      display: inline-block;
+      font-size: 14px;
+      margin: 5px 0;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    &:before {
+      border-bottom: 7px solid transparent;
+      border-left: 7px solid #eee;
+      border-left-color: rgba(0, 0, 0, 0.2);
+      border-top: 7px solid transparent;
+      content: '';
+      display: inline-block;
+      left: 0;
+      position: absolute;
+      top: 49px;
+
+    }
+
   }
 }
 
