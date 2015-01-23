@@ -6,7 +6,7 @@ Services
 ==================== */
 
 .services-page {
-  background: $light-grey2;
+  background: #fff;
   .column-l {
     float: left;
     width: 60%;
@@ -42,7 +42,7 @@ Services
     cursor: pointer;
 
     strong {
-      width: 40px;
+      width: 20px;
       height: 40px;
       margin-right: 10px;
       font-size: 42px;
@@ -54,7 +54,7 @@ Services
     }
 
     span {
-      margin-left: 60px;
+      margin-left: 30px;
       display: block;
     }
 
@@ -64,9 +64,13 @@ Services
   }
 
   p {
+    color: #666;
     font-size: 17px;
     line-height: 30px;
-    margin-left: 60px;
+    text-align: justify;
+
+    a { text-decoration: none; }
+
   }
 
 }
@@ -93,7 +97,7 @@ Services
   background: url("/images/services-arrow.png") left no-repeat;
   display: inline-block;
   text-indent: -9999px;
-  margin: 10px 0 25px 60px;
+  margin: 10px 0 25px;
   cursor: pointer;
 
   &:hover {
