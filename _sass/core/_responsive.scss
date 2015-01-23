@@ -29,7 +29,7 @@ Media Queries for Tablets
 
 
   // Main
-  
+
   .main {
     padding-bottom: 0;
   }
@@ -589,8 +589,8 @@ Media Queries for Tablets
       display: block;
     }
 
-    b { 
-      text-align: center; 
+    b {
+      text-align: center;
       margin-top: 0;
     }
   }
@@ -643,7 +643,7 @@ Media Queries for Tablets
 
 
       &:nth-child(2) section {
-        &:after, &:before { 
+        &:after, &:before {
           height: 290px;
           zoom: 0.7;
         }
@@ -652,35 +652,35 @@ Media Queries for Tablets
       &:nth-child(3) section {
         padding-top: 220px;
 
-        &:after, &:before { 
+        &:after, &:before {
           height: 170px;
           background-position: center -290px;
         }
       }
 
       &:nth-child(4) section {
-        &:after, &:before { 
+        &:after, &:before {
           height: 200px;
           background-position: center -460px;
         }
       }
 
       &:nth-child(5) section {
-        &:after, &:before { 
+        &:after, &:before {
           background-position: center -665px;
           height: 210px;
         }
       }
 
       &:nth-child(6) section {
-        &:after, &:before { 
+        &:after, &:before {
           background-position: center -875px;
           height: 205px;
         }
       }
 
       &:nth-child(7) section {
-        &:after, &:before { 
+        &:after, &:before {
           background-position: center -1080px;
           height: 380px;
           zoom: 0.55;
@@ -689,8 +689,8 @@ Media Queries for Tablets
     }
   }
 
-  section.testimonials blockquote { 
-    width: 100%; 
+  section.testimonials blockquote {
+    width: 100%;
 
     i {
       font-size: 15px;
@@ -699,7 +699,7 @@ Media Queries for Tablets
       &:before { margin-right: 2px }
       &:after { margin-left: 5px }
 
-      &:before, 
+      &:before,
       &:after {
         background-size: 18px auto;
         height: 14px;
@@ -819,12 +819,19 @@ Media Queries for Tablets
   .box_colors_show { display:none; }
 
   ul.downloads li { width: 350px;}
-  
-  
+
+
   /* Footer */
 
   .offices {
-    
+
+  }
+
+  /*Services*/
+  .services-page {
+    .column-l {
+      width: 45%;
+    }
   }
 
 }
@@ -852,20 +859,20 @@ Media Queries for Smartphones
       margin: 0;
     }
   }
-  
+
   #menu2 {
     a {
       margin-left: 0;
       margin-bottom: 1px;
     }
   }
-  
+
   #home {
     .default {
       background: rgba(#fff, 1);
       box-shadow: 0 -24px 8px 27px rgba(0, 0, 0, .1);
     }
-  
+
     #menu2 {
       a {
         background: #333;
@@ -1588,6 +1595,30 @@ Media Queries for Smartphones
 
   }
 
+  .services-page {
+    .column-l,
+    .column-r {
+      float: none;
+      width: 100%;
+    }
+
+    .mini-week { margin: 0; }
+  }
+
+  .complementary {
+    >p {
+      float: none;
+      width: 100%;
+    }
+
+    .blog-feed {
+      float: none;
+      margin: 20px 0;
+      padding: 0 0 0 10%;
+      width: 90%;
+    }
+  }
+
   #to-service-02,
   #to-service-03,
   #to-service-04,
@@ -1661,12 +1692,12 @@ Media Queries for Smartphones
 
     b { font-size: 13px; line-height: 22px;}
   }
-  
+
   section#atendesimples-steps {
-    
+
     .step-call {
 
-      iframe {  
+      iframe {
         padding: 0;
         border: none;
       }
@@ -1698,29 +1729,29 @@ Media Queries for Smartphones
     }
 
     article:nth-child(2) {
-      section:after, 
+      section:after,
       section:before { zoom: 0.55 !important }
-    } 
-    
+    }
+
     article:nth-child(4) {
-      section:after, 
+      section:after,
       section:before { zoom: 0.75 !important }
-    } 
-    
+    }
+
     article:nth-child(5) {
-      section:after, 
+      section:after,
       section:before { zoom: 0.75 !important }
-    } 
-    
+    }
+
     article:nth-child(6) {
-      section:after, 
+      section:after,
       section:before { zoom: 0.75 !important }
-    } 
-    
+    }
+
     article:nth-child(7) {
-      section:after, 
+      section:after,
       section:before { zoom: 0.45 !important }
-    } 
+    }
   }
 
 
@@ -1746,12 +1777,12 @@ Media Queries for Smartphones
 
   section.testimonials { padding-bottom: 20px }
 
-  section.company-logos { 
+  section.company-logos {
     padding-bottom: 40px;
 
-    figure { 
+    figure {
       text-align: center;
-      width: 100%; 
+      width: 100%;
 
       img {
         margin: 0 !important;
@@ -1879,8 +1910,8 @@ Media Queries for Smartphones
 
   /* Footer */
 
-  footer { 
-    padding: 20px 0 255px 0; 
+  footer {
+    padding: 20px 0 255px 0;
     position: static;
   }
 
@@ -1889,7 +1920,7 @@ Media Queries for Smartphones
 
   .offices {
     padding: 15px 0 20px 0;
-    
+
     li {
       width: 100%;
       padding: 15px;
@@ -1902,11 +1933,11 @@ Media Queries for Smartphones
         padding-bottom: 0;
       }
     }
-    
+
     li:first-child {
       margin-top: 0;
     }
-    
+
     li.phone-contact {
       width: 100%;
       margin-right: 0;
@@ -2107,7 +2138,7 @@ Media Queries with adjustments for Smartphones
       margin: 0 1% 25px 1%;
       width: 45%;
     }
-    
+
     li:nth-child(odd) { background: #f2f2f2; }
     li:nth-child(even) { background: #f8f8f8; }
   }
