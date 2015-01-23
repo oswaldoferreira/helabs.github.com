@@ -7,10 +7,17 @@ Services
 
 .services-page {
   background: $light-grey2;
+  .column-l {
+    float: left;
+    width: 60%;
+  }
+  .column-r {
+    float: right;
+  }
 }
 
 .services-page > .containner {
-  width: 60%;
+  width: 68%;
 }
 
 .services-page .bottom-nav {
@@ -30,6 +37,7 @@ Services
   h3 {
     text-transform: uppercase;
     font-size: $font-big;
+    font-weight: normal;
     margin: 0 0 20px 0;
     color: #000;
     cursor: pointer;
