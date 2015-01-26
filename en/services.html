@@ -123,13 +123,15 @@ pt: /pt/servicos/
         <h4>Team Blog</h4>
         <p>Meet the professionals who will develop <br>
         your project and what they think about the process.</p>
+
         <ul>
-          <li>
-            <a href="#">Um pouco de lean ux</a>
-          </li>
-          <li>
-            <a href="#">Grow products by learning</a>
-          </li>
+          {% raw %}
+            <script id="blog-posts" type="text/x-handlebars-template" data-no-instant="true">
+              <li>
+                <a href="{{url}}">{{title}}</a>
+              </li>
+            </script>
+          {% endraw %}
         </ul>
       </div>
 

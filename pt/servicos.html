@@ -122,12 +122,13 @@ redirect_from: /servicos/
         <p>Conheça os profissionais que vão desenvolver <br>
         seu projeto e o que eles pensam sobre o processo.</p>
         <ul>
-          <li>
-            <a href="#">Um pouco de lean ux</a>
-          </li>
-          <li>
-            <a href="#">Grow products by learning</a>
-          </li>
+          {% raw %}
+            <script id="blog-posts" type="text/x-handlebars-template" data-no-instant="true">
+              <li>
+                <a href="{{url}}">{{title}}</a>
+              </li>
+            </script>
+          {% endraw %}
         </ul>
       </div>
 
