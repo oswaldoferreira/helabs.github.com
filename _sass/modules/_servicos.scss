@@ -44,16 +44,18 @@ Services
     color: #000;
     cursor: pointer;
 
-    strong {
-      width: 20px;
-      height: 40px;
-      margin-right: 10px;
-      font-size: 42px;
+    &:before {
       display: inline-block;
-      text-align: center;
-      line-height: 35px;
       color: $grey2;
+      content: "»";
       float: left;
+      font-size: 42px;
+      font-weight: bold;
+      height: 40px;
+      line-height: 35px;
+      margin-right: 10px;
+      text-align: center;
+      width: 20px;
     }
 
     span {
