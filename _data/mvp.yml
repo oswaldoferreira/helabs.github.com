@@ -502,6 +502,12 @@ testimonials:
     name: "Pablo Braga"
     company: "Safetracking / Sidetech"
     description: "O sistema defini o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo projeto."
+  -
+    name: "Leonardo Magalhães"
+    company: "Negócios Brasil"
+    description: "Podemos dizer que estamos aptos a trabalhar em busca de nossos clientes, agora que temos um sistema funcional e adequado as nossas necessidades."
+
+
 
 testimonials-en:
   -
